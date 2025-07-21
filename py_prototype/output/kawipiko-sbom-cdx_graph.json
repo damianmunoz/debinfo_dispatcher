@@ -1,0 +1,640 @@
+{
+  "nodes": [
+    {
+      "id": "Step::ComponentDeclaration",
+      "group": "Step"
+    },
+    {
+      "id": "Artifact::github.com/andybalholm/brotli",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/cheekybits/genny",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/cipriancraciun/go-cdb-lib",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/foobaz/go-zopfli",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/fsnotify/fsnotify",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/go-task/slim-sprig",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/klauspost/compress",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/lucas-clemente/quic-go",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/marten-seemann/qpack",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/marten-seemann/qtls-go1-16",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/marten-seemann/qtls-go1-17",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/marten-seemann/qtls-go1-18",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/nxadm/tail",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/onsi/ginkgo",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/valyala/bytebufferpool",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/valyala/fasthttp",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/valyala/tcplisten",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::github.com/zeebo/blake3",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::go.etcd.io/bbolt",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::golang.org/x/crypto",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::golang.org/x/mod",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::golang.org/x/net",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::golang.org/x/sys",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::golang.org/x/text",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::golang.org/x/tools",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::golang.org/x/xerrors",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::gopkg.in/tomb.v1",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/andybalholm/brotli@v1.0.4?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/volution/kawipiko@v0.0.0-20220902105946-bbca9d709647?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/cipriancraciun/go-cdb-lib@v0.0.0-20190809203657-d959ce9cc674?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/foobaz/go-zopfli@v0.0.0-20140122214029-7432051485e2?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/lucas-clemente/quic-go@v0.25.0?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/valyala/fasthttp@v1.33.0?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/zeebo/blake3@v0.2.2?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/go.etcd.io/bbolt@v1.3.6?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/fsnotify/fsnotify@v1.5.1?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/cheekybits/genny@v1.0.0?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/marten-seemann/qpack@v0.2.1?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-16@v0.1.4?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-17@v0.1.0?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-18@v0.1.0-beta.1?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/onsi/ginkgo@v1.16.5?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/golang.org/x/net@v0.0.0-20220127200216-cd36cc0744dd?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/nxadm/tail@v1.4.8?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/gopkg.in/tomb.v1@v1.0.0-20141024135613-dd632973f1e7?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/go-task/slim-sprig@v0.0.0-20210107165309-348f09dbbbc0?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/golang.org/x/tools@v0.1.9?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/klauspost/compress@v1.14.3?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/valyala/bytebufferpool@v1.0.0?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/github.com/valyala/tcplisten@v1.0.0?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/golang.org/x/text@v0.3.7?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/golang.org/x/mod@v0.5.1?type=module",
+      "group": "Artifact"
+    },
+    {
+      "id": "Artifact::pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1?type=module",
+      "group": "Artifact"
+    }
+  ],
+  "links": [
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/andybalholm/brotli",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/cheekybits/genny",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/cipriancraciun/go-cdb-lib",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/foobaz/go-zopfli",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/fsnotify/fsnotify",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/go-task/slim-sprig",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/klauspost/compress",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/lucas-clemente/quic-go",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/marten-seemann/qpack",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/marten-seemann/qtls-go1-16",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/marten-seemann/qtls-go1-17",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/marten-seemann/qtls-go1-18",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/nxadm/tail",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/onsi/ginkgo",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/valyala/bytebufferpool",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/valyala/fasthttp",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/valyala/tcplisten",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::github.com/zeebo/blake3",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::go.etcd.io/bbolt",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::golang.org/x/crypto",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::golang.org/x/mod",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::golang.org/x/net",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::golang.org/x/sys",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::golang.org/x/text",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::golang.org/x/tools",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::golang.org/x/xerrors",
+      "label": "produces"
+    },
+    {
+      "source": "Step::ComponentDeclaration",
+      "target": "Artifact::gopkg.in/tomb.v1",
+      "label": "produces"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/andybalholm/brotli@v1.0.4?type=module",
+      "target": "Artifact::pkg:golang/github.com/volution/kawipiko@v0.0.0-20220902105946-bbca9d709647?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/cipriancraciun/go-cdb-lib@v0.0.0-20190809203657-d959ce9cc674?type=module",
+      "target": "Artifact::pkg:golang/github.com/volution/kawipiko@v0.0.0-20220902105946-bbca9d709647?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/foobaz/go-zopfli@v0.0.0-20140122214029-7432051485e2?type=module",
+      "target": "Artifact::pkg:golang/github.com/volution/kawipiko@v0.0.0-20220902105946-bbca9d709647?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/lucas-clemente/quic-go@v0.25.0?type=module",
+      "target": "Artifact::pkg:golang/github.com/volution/kawipiko@v0.0.0-20220902105946-bbca9d709647?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/valyala/fasthttp@v1.33.0?type=module",
+      "target": "Artifact::pkg:golang/github.com/volution/kawipiko@v0.0.0-20220902105946-bbca9d709647?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/zeebo/blake3@v0.2.2?type=module",
+      "target": "Artifact::pkg:golang/github.com/volution/kawipiko@v0.0.0-20220902105946-bbca9d709647?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/go.etcd.io/bbolt@v1.3.6?type=module",
+      "target": "Artifact::pkg:golang/github.com/volution/kawipiko@v0.0.0-20220902105946-bbca9d709647?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/github.com/fsnotify/fsnotify@v1.5.1?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/cheekybits/genny@v1.0.0?type=module",
+      "target": "Artifact::pkg:golang/github.com/lucas-clemente/quic-go@v0.25.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/marten-seemann/qpack@v0.2.1?type=module",
+      "target": "Artifact::pkg:golang/github.com/lucas-clemente/quic-go@v0.25.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-16@v0.1.4?type=module",
+      "target": "Artifact::pkg:golang/github.com/lucas-clemente/quic-go@v0.25.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-17@v0.1.0?type=module",
+      "target": "Artifact::pkg:golang/github.com/lucas-clemente/quic-go@v0.25.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-18@v0.1.0-beta.1?type=module",
+      "target": "Artifact::pkg:golang/github.com/lucas-clemente/quic-go@v0.25.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/onsi/ginkgo@v1.16.5?type=module",
+      "target": "Artifact::pkg:golang/github.com/lucas-clemente/quic-go@v0.25.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?type=module",
+      "target": "Artifact::pkg:golang/github.com/lucas-clemente/quic-go@v0.25.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/net@v0.0.0-20220127200216-cd36cc0744dd?type=module",
+      "target": "Artifact::pkg:golang/github.com/lucas-clemente/quic-go@v0.25.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/github.com/lucas-clemente/quic-go@v0.25.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/onsi/ginkgo@v1.16.5?type=module",
+      "target": "Artifact::pkg:golang/github.com/marten-seemann/qpack@v0.2.1?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/net@v0.0.0-20220127200216-cd36cc0744dd?type=module",
+      "target": "Artifact::pkg:golang/github.com/marten-seemann/qpack@v0.2.1?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?type=module",
+      "target": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-16@v0.1.4?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-16@v0.1.4?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?type=module",
+      "target": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-17@v0.1.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-17@v0.1.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?type=module",
+      "target": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-18@v0.1.0-beta.1?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/github.com/marten-seemann/qtls-go1-18@v0.1.0-beta.1?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/fsnotify/fsnotify@v1.5.1?type=module",
+      "target": "Artifact::pkg:golang/github.com/nxadm/tail@v1.4.8?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/gopkg.in/tomb.v1@v1.0.0-20141024135613-dd632973f1e7?type=module",
+      "target": "Artifact::pkg:golang/github.com/nxadm/tail@v1.4.8?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/go-task/slim-sprig@v0.0.0-20210107165309-348f09dbbbc0?type=module",
+      "target": "Artifact::pkg:golang/github.com/onsi/ginkgo@v1.16.5?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/nxadm/tail@v1.4.8?type=module",
+      "target": "Artifact::pkg:golang/github.com/onsi/ginkgo@v1.16.5?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/github.com/onsi/ginkgo@v1.16.5?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/tools@v0.1.9?type=module",
+      "target": "Artifact::pkg:golang/github.com/onsi/ginkgo@v1.16.5?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/andybalholm/brotli@v1.0.4?type=module",
+      "target": "Artifact::pkg:golang/github.com/valyala/fasthttp@v1.33.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/klauspost/compress@v1.14.3?type=module",
+      "target": "Artifact::pkg:golang/github.com/valyala/fasthttp@v1.33.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/valyala/bytebufferpool@v1.0.0?type=module",
+      "target": "Artifact::pkg:golang/github.com/valyala/fasthttp@v1.33.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/github.com/valyala/tcplisten@v1.0.0?type=module",
+      "target": "Artifact::pkg:golang/github.com/valyala/fasthttp@v1.33.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?type=module",
+      "target": "Artifact::pkg:golang/github.com/valyala/fasthttp@v1.33.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/net@v0.0.0-20220127200216-cd36cc0744dd?type=module",
+      "target": "Artifact::pkg:golang/github.com/valyala/fasthttp@v1.33.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/github.com/valyala/fasthttp@v1.33.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/text@v0.3.7?type=module",
+      "target": "Artifact::pkg:golang/github.com/valyala/fasthttp@v1.33.0?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/github.com/zeebo/blake3@v0.2.2?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/go.etcd.io/bbolt@v1.3.6?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/net@v0.0.0-20220127200216-cd36cc0744dd?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/text@v0.3.7?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/mod@v0.5.1?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/tools@v0.1.9?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/mod@v0.5.1?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/mod@v0.5.1?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/net@v0.0.0-20220127200216-cd36cc0744dd?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/text@v0.3.7?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/net@v0.0.0-20220127200216-cd36cc0744dd?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/tools@v0.1.9?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/text@v0.3.7?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/mod@v0.5.1?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/tools@v0.1.9?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/net@v0.0.0-20220127200216-cd36cc0744dd?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/tools@v0.1.9?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/tools@v0.1.9?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/text@v0.3.7?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/tools@v0.1.9?type=module",
+      "label": "is_dependency_of"
+    },
+    {
+      "source": "Artifact::pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1?type=module",
+      "target": "Artifact::pkg:golang/golang.org/x/tools@v0.1.9?type=module",
+      "label": "is_dependency_of"
+    }
+  ]
+}
