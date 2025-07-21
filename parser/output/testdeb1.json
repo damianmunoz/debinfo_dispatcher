@@ -1,0 +1,1231 @@
+{
+  "artifacts": [
+    {
+      "id": "0ad-data-common_0.0.23.1-1.1_all.deb",
+      "kind": "binary",
+      "name": "0ad-data-common_0.0.23.1-1.1_all.deb",
+      "version": "0.0.23.1-1.1",
+      "hash": "9bceebe75ab7bca79606aae24fd203681b10d1107b456a1a28f35c996d32199a",
+      "size": 777612
+    },
+    {
+      "id": "0ad-data_0.0.23.1-1.1_all.deb",
+      "kind": "binary",
+      "name": "0ad-data_0.0.23.1-1.1_all.deb",
+      "version": "0.0.23.1-1.1",
+      "hash": "afb3f0ddaceb36dc2d716d83d7fee4ada419511a948e4a06fa44bbc1b486e2c0",
+      "size": 701833824
+    }
+  ],
+  "step": [
+    {
+      "id": "build-0ad-data@0.0.23.1-1.1",
+      "command": "dpkg-buildpackage",
+      "timestamp": "Fri, 01 Jan 2021 16:18:04 +0000",
+      "architecture": "amd64",
+      "environment": {},
+      "consumed_resources": [
+        "autoconf@2.69-14",
+        "automake@1:1.16.3-1",
+        "autopoint@0.21-3",
+        "autotools-dev@20180224.1+nmu1",
+        "base-files@11",
+        "base-passwd@3.5.48",
+        "bash@5.1-1",
+        "binutils@2.35.1-6",
+        "binutils-common@2.35.1-6",
+        "binutils-x86-64-linux-gnu@2.35.1-6",
+        "bsdextrautils@2.36.1-4",
+        "bsdutils@1:2.36.1-4",
+        "build-essential@12.8",
+        "bzip2@1.0.8-4",
+        "coreutils@8.32-4+b1",
+        "cpp@4:10.2.0-1",
+        "cpp-10@10.2.1-3",
+        "dash@0.5.11+git20200708+dd9ef66-5",
+        "debconf@1.5.74",
+        "debhelper@13.3.1",
+        "debianutils@4.11.2",
+        "dh-autoreconf@19",
+        "dh-strip-nondeterminism@1.9.0-1",
+        "diffutils@1:3.7-3",
+        "dpkg@1.20.5",
+        "dpkg-dev@1.20.5",
+        "dwz@0.13+20201015-2",
+        "file@1:5.39-3",
+        "findutils@4.7.0+git20201010-2",
+        "g++@4:10.2.0-1",
+        "g++-10@10.2.1-3",
+        "gcc@4:10.2.0-1",
+        "gcc-10@10.2.1-3",
+        "gcc-10-base@10.2.1-3",
+        "gettext@0.21-3",
+        "gettext-base@0.21-3",
+        "grep@3.6-1",
+        "groff-base@1.22.4-5",
+        "gzip@1.10-2",
+        "hostname@3.23",
+        "init-system-helpers@1.60",
+        "intltool-debian@0.35.0+20060710.5",
+        "libacl1@2.2.53-9",
+        "libarchive-zip-perl@1.68-1",
+        "libasan6@10.2.1-3",
+        "libatomic1@10.2.1-3",
+        "libattr1@1:2.4.48-6",
+        "libaudit-common@1:3.0-1",
+        "libaudit1@1:3.0-1",
+        "libbinutils@2.35.1-6",
+        "libblkid1@2.36.1-4",
+        "libbz2-1.0@1.0.8-4",
+        "libc-bin@2.31-6",
+        "libc-dev-bin@2.31-6",
+        "libc6@2.31-6",
+        "libc6-dev@2.31-6",
+        "libcap-ng0@0.7.9-2.2+b1",
+        "libcc1-0@10.2.1-3",
+        "libcom-err2@1.45.6-1",
+        "libcrypt-dev@1:4.4.17-1",
+        "libcrypt1@1:4.4.17-1",
+        "libctf-nobfd0@2.35.1-6",
+        "libctf0@2.35.1-6",
+        "libdb5.3@5.3.28+dfsg1-0.6",
+        "libdebconfclient0@0.255",
+        "libdebhelper-perl@13.3.1",
+        "libdpkg-perl@1.20.5",
+        "libelf1@0.182-2",
+        "libfile-stripnondeterminism-perl@1.9.0-1",
+        "libgcc-10-dev@10.2.1-3",
+        "libgcc-s1@10.2.1-3",
+        "libgcrypt20@1.8.7-2",
+        "libgdbm-compat4@1.18.1-5.1",
+        "libgdbm6@1.18.1-5.1",
+        "libgmp10@2:6.2.1+dfsg-1",
+        "libgomp1@10.2.1-3",
+        "libgpg-error0@1.38-2",
+        "libgssapi-krb5-2@1.18.3-4",
+        "libicu67@67.1-5",
+        "libisl23@0.23-1",
+        "libitm1@10.2.1-3",
+        "libk5crypto3@1.18.3-4",
+        "libkeyutils1@1.6.1-2",
+        "libkrb5-3@1.18.3-4",
+        "libkrb5support0@1.18.3-4",
+        "liblsan0@10.2.1-3",
+        "liblz4-1@1.9.3-1",
+        "liblzma5@5.2.4-1+b1",
+        "libmagic-mgc@1:5.39-3",
+        "libmagic1@1:5.39-3",
+        "libmount1@2.36.1-4",
+        "libmpc3@1.2.0-1",
+        "libmpfr6@4.1.0-3",
+        "libnsl-dev@1.3.0-2",
+        "libnsl2@1.3.0-2",
+        "libpam-modules@1.4.0-2",
+        "libpam-modules-bin@1.4.0-2",
+        "libpam-runtime@1.4.0-2",
+        "libpam0g@1.4.0-2",
+        "libpcre2-8-0@10.36-2",
+        "libpcre3@2:8.39-13",
+        "libperl5.32@5.32.0-6",
+        "libpipeline1@1.5.3-1",
+        "libquadmath0@10.2.1-3",
+        "libseccomp2@2.5.1-1",
+        "libselinux1@3.1-2+b2",
+        "libsigsegv2@2.12-3",
+        "libsmartcols1@2.36.1-4",
+        "libssl1.1@1.1.1i-1",
+        "libstdc++-10-dev@10.2.1-3",
+        "libstdc++6@10.2.1-3",
+        "libsub-override-perl@0.09-2",
+        "libsystemd0@247.2-3",
+        "libtinfo6@6.2+20201114-1",
+        "libtirpc-common@1.2.6-3",
+        "libtirpc-dev@1.2.6-3",
+        "libtirpc3@1.2.6-3",
+        "libtool@2.4.6-14",
+        "libtsan0@10.2.1-3",
+        "libubsan1@10.2.1-3",
+        "libuchardet0@0.0.7-1",
+        "libudev1@247.2-3",
+        "libunistring2@0.9.10-4",
+        "libuuid1@2.36.1-4",
+        "libxml2@2.9.10+dfsg-6.3+b1",
+        "libzstd1@1.4.8+dfsg-1",
+        "linux-libc-dev@5.9.15-1",
+        "login@1:4.8.1-1",
+        "lsb-base@11.1.0",
+        "m4@1.4.18-4",
+        "make@4.3-4",
+        "man-db@2.9.3-2",
+        "mawk@1.3.4.20200120-2",
+        "ncurses-base@6.2+20201114-1",
+        "ncurses-bin@6.2+20201114-1",
+        "patch@2.7.6-6",
+        "perl@5.32.0-6",
+        "perl-base@5.32.0-6",
+        "perl-modules-5.32@5.32.0-6",
+        "po-debconf@1.0.21+nmu1",
+        "sed@4.7-1",
+        "sensible-utils@0.0.12+nmu1",
+        "sysvinit-utils@2.96-5",
+        "tar@1.32+dfsg-1",
+        "util-linux@2.36.1-4",
+        "xz-utils@5.2.4-1+b1",
+        "zlib1g@1:1.2.11.dfsg-2",
+        "0ad-data_0.0.23.1.orig.tar.xz"
+      ],
+      "outputs": [
+        "0ad-data-common_0.0.23.1-1.1_all.deb",
+        "0ad-data_0.0.23.1-1.1_all.deb"
+      ]
+    }
+  ],
+  "principals": [
+    {
+      "id": "Debian",
+      "trust_level": "signed",
+      "builder": "Debian Build Infrastructure",
+      "metadata": {
+        "pgp_key_id": "c6ea344eca1497ea"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "id": "autoconf@2.69-14",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/a/autoconf_2.69-14.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "automake@1:1.16.3-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/a/automake_1:1.16.3-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "autopoint@0.21-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/a/autopoint_0.21-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "autotools-dev@20180224.1+nmu1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/a/autotools-dev_20180224.1+nmu1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "base-files@11",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/b/base-files_11.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "base-passwd@3.5.48",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/b/base-passwd_3.5.48.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "bash@5.1-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/b/bash_5.1-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "binutils@2.35.1-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/b/binutils_2.35.1-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "binutils-common@2.35.1-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/b/binutils-common_2.35.1-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "binutils-x86-64-linux-gnu@2.35.1-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/b/binutils-x86-64-linux-gnu_2.35.1-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "bsdextrautils@2.36.1-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/b/bsdextrautils_2.36.1-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "bsdutils@1:2.36.1-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/b/bsdutils_1:2.36.1-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "build-essential@12.8",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/b/build-essential_12.8.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "bzip2@1.0.8-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/b/bzip2_1.0.8-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "coreutils@8.32-4+b1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/c/coreutils_8.32-4+b1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "cpp@4:10.2.0-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/c/cpp_4:10.2.0-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "cpp-10@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/c/cpp-10_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "dash@0.5.11+git20200708+dd9ef66-5",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/d/dash_0.5.11+git20200708+dd9ef66-5.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "debconf@1.5.74",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/d/debconf_1.5.74.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "debhelper@13.3.1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/d/debhelper_13.3.1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "debianutils@4.11.2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/d/debianutils_4.11.2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "dh-autoreconf@19",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/d/dh-autoreconf_19.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "dh-strip-nondeterminism@1.9.0-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/d/dh-strip-nondeterminism_1.9.0-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "diffutils@1:3.7-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/d/diffutils_1:3.7-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "dpkg@1.20.5",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/d/dpkg_1.20.5.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "dpkg-dev@1.20.5",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/d/dpkg-dev_1.20.5.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "dwz@0.13+20201015-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/d/dwz_0.13+20201015-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "file@1:5.39-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/f/file_1:5.39-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "findutils@4.7.0+git20201010-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/f/findutils_4.7.0+git20201010-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "g++@4:10.2.0-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/g/g++_4:10.2.0-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "g++-10@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/g/g++-10_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "gcc@4:10.2.0-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/g/gcc_4:10.2.0-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "gcc-10@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/g/gcc-10_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "gcc-10-base@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/g/gcc-10-base_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "gettext@0.21-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/g/gettext_0.21-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "gettext-base@0.21-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/g/gettext-base_0.21-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "grep@3.6-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/g/grep_3.6-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "groff-base@1.22.4-5",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/g/groff-base_1.22.4-5.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "gzip@1.10-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/g/gzip_1.10-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "hostname@3.23",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/h/hostname_3.23.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "init-system-helpers@1.60",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/i/init-system-helpers_1.60.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "intltool-debian@0.35.0+20060710.5",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/i/intltool-debian_0.35.0+20060710.5.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libacl1@2.2.53-9",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libacl1_2.2.53-9.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libarchive-zip-perl@1.68-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libarchive-zip-perl_1.68-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libasan6@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libasan6_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libatomic1@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libatomic1_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libattr1@1:2.4.48-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libattr1_1:2.4.48-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libaudit-common@1:3.0-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libaudit-common_1:3.0-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libaudit1@1:3.0-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libaudit1_1:3.0-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libbinutils@2.35.1-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libbinutils_2.35.1-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libblkid1@2.36.1-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libblkid1_2.36.1-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libbz2-1.0@1.0.8-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libbz2-1.0_1.0.8-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libc-bin@2.31-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libc-bin_2.31-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libc-dev-bin@2.31-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libc-dev-bin_2.31-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libc6@2.31-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libc6_2.31-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libc6-dev@2.31-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libc6-dev_2.31-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libcap-ng0@0.7.9-2.2+b1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libcap-ng0_0.7.9-2.2+b1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libcc1-0@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libcc1-0_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libcom-err2@1.45.6-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libcom-err2_1.45.6-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libcrypt-dev@1:4.4.17-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libcrypt-dev_1:4.4.17-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libcrypt1@1:4.4.17-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libcrypt1_1:4.4.17-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libctf-nobfd0@2.35.1-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libctf-nobfd0_2.35.1-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libctf0@2.35.1-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libctf0_2.35.1-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libdb5.3@5.3.28+dfsg1-0.6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libdb5.3_5.3.28+dfsg1-0.6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libdebconfclient0@0.255",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libdebconfclient0_0.255.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libdebhelper-perl@13.3.1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libdebhelper-perl_13.3.1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libdpkg-perl@1.20.5",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libdpkg-perl_1.20.5.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libelf1@0.182-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libelf1_0.182-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libfile-stripnondeterminism-perl@1.9.0-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libfile-stripnondeterminism-perl_1.9.0-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libgcc-10-dev@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libgcc-10-dev_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libgcc-s1@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libgcc-s1_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libgcrypt20@1.8.7-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libgcrypt20_1.8.7-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libgdbm-compat4@1.18.1-5.1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libgdbm-compat4_1.18.1-5.1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libgdbm6@1.18.1-5.1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libgdbm6_1.18.1-5.1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libgmp10@2:6.2.1+dfsg-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libgmp10_2:6.2.1+dfsg-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libgomp1@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libgomp1_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libgpg-error0@1.38-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libgpg-error0_1.38-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libgssapi-krb5-2@1.18.3-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libgssapi-krb5-2_1.18.3-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libicu67@67.1-5",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libicu67_67.1-5.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libisl23@0.23-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libisl23_0.23-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libitm1@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libitm1_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libk5crypto3@1.18.3-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libk5crypto3_1.18.3-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libkeyutils1@1.6.1-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libkeyutils1_1.6.1-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libkrb5-3@1.18.3-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libkrb5-3_1.18.3-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libkrb5support0@1.18.3-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libkrb5support0_1.18.3-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "liblsan0@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/liblsan0_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "liblz4-1@1.9.3-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/liblz4-1_1.9.3-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "liblzma5@5.2.4-1+b1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/liblzma5_5.2.4-1+b1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libmagic-mgc@1:5.39-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libmagic-mgc_1:5.39-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libmagic1@1:5.39-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libmagic1_1:5.39-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libmount1@2.36.1-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libmount1_2.36.1-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libmpc3@1.2.0-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libmpc3_1.2.0-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libmpfr6@4.1.0-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libmpfr6_4.1.0-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libnsl-dev@1.3.0-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libnsl-dev_1.3.0-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libnsl2@1.3.0-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libnsl2_1.3.0-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libpam-modules@1.4.0-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libpam-modules_1.4.0-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libpam-modules-bin@1.4.0-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libpam-modules-bin_1.4.0-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libpam-runtime@1.4.0-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libpam-runtime_1.4.0-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libpam0g@1.4.0-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libpam0g_1.4.0-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libpcre2-8-0@10.36-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libpcre2-8-0_10.36-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libpcre3@2:8.39-13",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libpcre3_2:8.39-13.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libperl5.32@5.32.0-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libperl5.32_5.32.0-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libpipeline1@1.5.3-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libpipeline1_1.5.3-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libquadmath0@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libquadmath0_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libseccomp2@2.5.1-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libseccomp2_2.5.1-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libselinux1@3.1-2+b2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libselinux1_3.1-2+b2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libsigsegv2@2.12-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libsigsegv2_2.12-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libsmartcols1@2.36.1-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libsmartcols1_2.36.1-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libssl1.1@1.1.1i-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libssl1.1_1.1.1i-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libstdc++-10-dev@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libstdc++-10-dev_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libstdc++6@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libstdc++6_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libsub-override-perl@0.09-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libsub-override-perl_0.09-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libsystemd0@247.2-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libsystemd0_247.2-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libtinfo6@6.2+20201114-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libtinfo6_6.2+20201114-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libtirpc-common@1.2.6-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libtirpc-common_1.2.6-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libtirpc-dev@1.2.6-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libtirpc-dev_1.2.6-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libtirpc3@1.2.6-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libtirpc3_1.2.6-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libtool@2.4.6-14",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libtool_2.4.6-14.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libtsan0@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libtsan0_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libubsan1@10.2.1-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libubsan1_10.2.1-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libuchardet0@0.0.7-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libuchardet0_0.0.7-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libudev1@247.2-3",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libudev1_247.2-3.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libunistring2@0.9.10-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libunistring2_0.9.10-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libuuid1@2.36.1-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libuuid1_2.36.1-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libxml2@2.9.10+dfsg-6.3+b1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libxml2_2.9.10+dfsg-6.3+b1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "libzstd1@1.4.8+dfsg-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/libzstd1_1.4.8+dfsg-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "linux-libc-dev@5.9.15-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/linux-libc-dev_5.9.15-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "login@1:4.8.1-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/login_1:4.8.1-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "lsb-base@11.1.0",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/l/lsb-base_11.1.0.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "m4@1.4.18-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/m/m4_1.4.18-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "make@4.3-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/m/make_4.3-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "man-db@2.9.3-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/m/man-db_2.9.3-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "mawk@1.3.4.20200120-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/m/mawk_1.3.4.20200120-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "ncurses-base@6.2+20201114-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/n/ncurses-base_6.2+20201114-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "ncurses-bin@6.2+20201114-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/n/ncurses-bin_6.2+20201114-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "patch@2.7.6-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/p/patch_2.7.6-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "perl@5.32.0-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/p/perl_5.32.0-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "perl-base@5.32.0-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/p/perl-base_5.32.0-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "perl-modules-5.32@5.32.0-6",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/p/perl-modules-5.32_5.32.0-6.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "po-debconf@1.0.21+nmu1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/p/po-debconf_1.0.21+nmu1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "sed@4.7-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/s/sed_4.7-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "sensible-utils@0.0.12+nmu1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/s/sensible-utils_0.0.12+nmu1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "sysvinit-utils@2.96-5",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/s/sysvinit-utils_2.96-5.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "tar@1.32+dfsg-1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/t/tar_1.32+dfsg-1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "util-linux@2.36.1-4",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/u/util-linux_2.36.1-4.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "xz-utils@5.2.4-1+b1",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/x/xz-utils_5.2.4-1+b1.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "zlib1g@1:1.2.11.dfsg-2",
+      "type": "build-dependency",
+      "uri": "https://deb.debian.org/debian/pool/main/z/zlib1g_1:1.2.11.dfsg-2.deb",
+      "format": "deb",
+      "used_by": "Debian"
+    },
+    {
+      "id": "0ad-data_0.0.23.1.orig.tar.xz",
+      "type": "tarball",
+      "uri": "https://deb.debian.org/debian/pool/main/0/0ad-data/0ad-data_0.0.23.1.orig.tar.xz",
+      "format": "orig.tar.xz",
+      "used_by": "Debian"
+    }
+  ]
+}
